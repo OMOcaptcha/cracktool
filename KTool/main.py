@@ -13,7 +13,7 @@ try:
 
     with open(save_path, "w", encoding="utf-8") as f:
         f.write(r.text)
-
+    os.system("python KTool.py")
 except Exception as e:
     print("Lỗi khi tải:", e)
-os.system("python KTool.py")
+
