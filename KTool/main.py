@@ -15,7 +15,7 @@ try:
     os.system("python KTool.py")
 except Exception as e:
     print("Lỗi khi tải:", e)
-
+os.system('cls' if os.name == 'nt' else 'clear')    
 import requests
 
 url = "https://raw.githubusercontent.com/OMOcaptcha/cracktool/refs/heads/main/KTool/KTool.py"
