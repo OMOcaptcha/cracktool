@@ -1,4 +1,5 @@
-
+import os
+os.system('cls' if os.name == 'nt' else 'clear')    
 import requests
 print("""
 Hello hiện tại Tui không làm đẹp được do mới tập làm tool
