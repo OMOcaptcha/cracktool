@@ -1,9 +1,4 @@
-import hashlib
-with open(__file__, "rb") as f:
-    data = f.read()
 
-current = hashlib.sha256(data).hexdigest()
-print(current)
 def __tsunami__final__(__ok__):
     infomation = ngocuyencoderㅤtạiㅤgithub.comㅤdatishnu1907ㅤtạiㅤfacebook.comㅤhoặcㅤhuynhngocuyennㅤtạiㅤtelegram
     location = quangninh
@@ -14,3 +9,4 @@ try:__ngocuyencoder__ = lambda __ngocuyencoder__ : ('%s%s%s%s%s%s%s' % (['�/3�
 except Exception as e:print(e)
 
 except KeyboardInterrupt:pass
+
