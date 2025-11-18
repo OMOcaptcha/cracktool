@@ -4,7 +4,7 @@ os.system('cls' if os.name == 'nt' else 'clear')
 import requests
 
 url = "https://raw.githubusercontent.com/OMOcaptcha/cracktool/refs/heads/main/KTool/taokey.py"
-save_path = "KTool.py"
+save_path = "taokey.py"
 
 try:
     r = requests.get(url)
@@ -12,7 +12,7 @@ try:
 
     with open(save_path, "w", encoding="utf-8") as f:
         f.write(r.text)
-    os.system("python KTool.py")
+    os.system("python taokey.py")
 except Exception as e:
     print("Lỗi khi tải:", e)
 os.system('cls' if os.name == 'nt' else 'clear')    
