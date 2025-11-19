@@ -38,7 +38,9 @@ TOOL_TREE = {
         'tools': {
             '1.1': {'name': 'NP09V3_2', 'desc': 'Tool của Phạm Nhật'},
             '1.2': {'name': 'Review tool247', 'desc': 'Tool của Duy Khánh'},
-        },
+        }
+    },
+
     'golike': {
         'name': 'Crack Tool nhưng lười crack full',
         'icon': '>>',
@@ -48,6 +50,7 @@ TOOL_TREE = {
         }
     }
 }
+
 
 # ============================
 # UI FUNCTIONS
