@@ -1,0 +1,6 @@
+{
+    "status": "ok",
+    "time": "2025-11-19T10:47:34+07:00",
+    "alias": "KHANHDEPTRAI",
+    "clicks": 9999999999
+}
